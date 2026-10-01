@@ -9,12 +9,55 @@
 
 [English](README.md) | 中文
 
-**这个仓库收集整理AI相关的实用工具，欢迎大家一起推荐更多实用的AI工具，[推荐参考模板](https://github.com/ikaijua/Awesome-AITools/issues/232)**
+**这个仓库收集整理AI相关的实用工具，欢迎大家一起推荐更多实用的AI工具，[推荐参考模板](https://github.com/ikaijua/Awesome-AITools/issues/new/choose)**
 
+欢迎转载、翻译和做镜像站——内容采用 [CC BY 4.0](LICENSE) 协议发布，注明出处即可。提交 Pull Request 前请先阅读 [CONTRIBUTING-CN.md](CONTRIBUTING-CN.md)。
+
+- [编辑精选](#编辑精选)
 - [AI新闻动态](https://github.com/ikaijua/Awesome-AITools/discussions?discussions_q=is%3Aopen+label%3A%22AI+news%22)
+- [贡献指南](CONTRIBUTING-CN.md)
 - [赞助项目/赞赏支持](#赞助项目-赞赏支持)
 
+## ✨ 编辑精选
 
+不知道从哪儿开始？这六个是最值得先试的——每一个都有 [`docs/`](docs/) 里的完整介绍。
+
+<table>
+  <tr>
+    <td width="33.3%" align="center">
+      <a href="docs/chatgpt/README.md"><b>ChatGPT</b></a>
+      <br>
+      <sub>综合能力最强的通用助手，记忆能真正跨对话延续</sub>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="docs/claude/README.md"><b>Claude</b></a>
+      <br>
+      <sub>编程、长上下文推理与 Agent 任务最强</sub>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="docs/gemini/README.md"><b>Gemini</b></a>
+      <br>
+      <sub>原生多模态，深度研究是它的主场</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="docs/claude-code/README.md"><b>Claude Code</b></a>
+      <br>
+      <sub>终端、IDE 或浏览器里的智能编程 Agent</sub>
+    </td>
+    <td align="center">
+      <a href="docs/cursor/README.md"><b>Cursor</b></a>
+      <br>
+      <sub>AI 原生的代码编辑器</sub>
+    </td>
+    <td align="center">
+      <a href="docs/deepseek/README.md"><b>DeepSeek</b></a>
+      <br>
+      <sub>开源权重，推理性价比最高</sub>
+    </td>
+  </tr>
+</table>
 
 ## 💎 赞助商
 
@@ -494,6 +537,18 @@
 Early experiments with GPT-4](https://arxiv.org/pdf/2303.12712v1.pdf): 该论文是一篇长达154页的对 GPT-4 的测试。微软的研究院在很早期就接触到了 GPT-4 的非多模态版本，并进行了详尽的测试。这篇论文不管是测试方法还是测试结论都非常精彩，强烈推荐看一遍。
 - [《GPT-4 ，通用人工智能的火花》论文内容精选与翻译](https://orangeblog.notion.site/GPT-4-8fc50010291d47efb92cbbd668c8c893): [Sparks of Artificial General Intelligence:
 Early experiments with GPT-4](https://arxiv.org/pdf/2303.12712v1.pdf) 这篇论文的精选和中文翻译。
+
+---
+
+<div align="center">
+
+⭐ **[点个 Star](https://github.com/ikaijua/Awesome-AITools/stargazers)**，新工具收录时第一时间收到通知。
+
+每周都有新工具加入——完整记录见 [CHANGELOG.md](CHANGELOG.md)，也可以关注讨论区的 [AI 新闻动态](https://github.com/ikaijua/Awesome-AITools/discussions?discussions_q=is%3Aopen+label%3A%22AI+news%22)。
+
+<sub>内容采用 [CC BY 4.0](LICENSE) 协议发布——欢迎转载、翻译、做镜像站，只要注明本仓库出处即可。</sub>
+
+</div>
 
 ## 其他
 ### 赞助项目-赞赏支持

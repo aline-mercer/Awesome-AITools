@@ -1,0 +1,110 @@
+name: Recommend a new tool
+description: Suggest an AI tool to add to the list. No git needed.
+title: "[New tool] "
+labels: ["recommend"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the recommendation. Please search the README first — duplicates will be closed.
+
+        Fields marked **required** must be filled in. See [CONTRIBUTING.md](https://github.com/ikaijua/Awesome-AITools/blob/main/CONTRIBUTING.md) for the entry format.
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      description: The product name only, no tagline.
+      placeholder: "e.g. Claude Code"
+    validations:
+      required: true
+  - type: select
+    id: category
+    attributes:
+      label: Category
+      description: Which README section does it belong in?
+      options:
+        - AI Assistants & Proprietary Models
+        - Open Source LLMs
+        - LLM Leaderboard
+        - AI Agent
+        - Agent Skills
+        - AI News & Information
+        - AI Coding
+        - General LLM Applications
+        - Office Collaboration CLI/MCP
+        - AI Finance & Quant Investment
+        - AI Image Creation and UI Design
+        - Video Creation
+        - AI Infrastructure Platform
+        - GPU Programming
+        - LLM Prompts
+        - LLM training platform
+        - LLM Inference & Deployment
+        - Writing
+        - Translation
+        - Speech Recognition
+        - Text To Speech
+        - Music Recognition
+        - Voice Processing
+        - AI generated music or sound effects
+        - Speech translation
+        - Video Content Summary
+        - Academic research
+        - OCR
+        - AI Detection
+        - Humanoid Robots
+        - Embodied AI & Simulation
+        - Not sure / maintainer, please decide
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+      description: The product homepage. Must be reachable.
+      placeholder: "https://example.com"
+    validations:
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: GitHub repo (if open source)
+      placeholder: "https://github.com/org/repo"
+    validations:
+      required: false
+  - type: select
+    id: fees
+    attributes:
+      label: Fees
+      options:
+        - Free
+        - Paid
+        - Free/Paid
+        - Free Trial
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: One or two factual sentences — what it is, who makes it, the current flagship version, and what it is best at. No marketing copy.
+    validations:
+      required: true
+  - type: textarea
+    id: chinese
+    attributes:
+      label: Chinese description (optional, greatly appreciated)
+      description: The same description in Chinese. Both READMEs must stay in sync, so supplying this saves a round trip.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched the README and this tool is not already listed
+          required: true
+        - label: The links above work
+          required: true
+        - label: This is a real tool, not an ad or an SEO aggregator
+          required: true

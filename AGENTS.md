@@ -10,6 +10,8 @@ A curated, bilingual (EN/CN) "awesome list" of AI tools — chatbots, agents, sk
 
 - `README.md` — Main tool list (English).
 - `README-CN.md` — Main tool list (Chinese).
+- `CONTRIBUTING.md` / `CONTRIBUTING-CN.md` — Entry format, field rules, pre-submit checklist. Point contributors here.
+- `LICENSE` — CC BY 4.0. Content may be reused, translated, and mirrored with attribution.
 - `docs/<tool-slug>/` — Longer-form intros for individual tools.
 - `CHANGELOG.md` — Monthly log (e.g. `## June 2026`) of additions/removals/renames.
 - `scripts/format_readmes.py` — Maintenance/normalization script.

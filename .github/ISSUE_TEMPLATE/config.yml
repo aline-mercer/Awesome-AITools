@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the contributing guide first
+    url: https://github.com/ikaijua/Awesome-AITools/blob/main/CONTRIBUTING.md
+    about: Entry format, field rules, and the pre-submit checklist.
+  - name: AI News & discussions
+    url: https://github.com/ikaijua/Awesome-AITools/discussions
+    about: For news, opinions, and deep-dives rather than list changes.
+  - name: Report a broken link or outdated entry
+    url: https://github.com/ikaijua/Awesome-AITools/issues/new?template=new-tool.yml
+    about: Use the tool form and describe what needs fixing.
+  - name: Become a sponsor
+    url: https://github.com/ikaijua/Awesome-AITools#become-sponsors
+    about: Sponsorship enquiries.

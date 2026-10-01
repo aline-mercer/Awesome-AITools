@@ -1,0 +1,103 @@
+name: 推荐新工具
+description: 推荐一个 AI 工具加入清单，不需要懂 git
+title: "[新工具] "
+labels: ["recommend"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢推荐。提交前请先搜索 README 确认没有重复——重复条目会被关闭。
+
+        标 **必填** 的字段请务必填写。条目格式见 [CONTRIBUTING-CN.md](https://github.com/ikaijua/Awesome-AITools/blob/main/CONTRIBUTING-CN.md)。
+  - type: input
+    id: name
+    attributes:
+      label: 工具名称
+      description: 只写产品名，不要加标语
+      placeholder: "例如：Claude Code"
+    validations:
+      required: true
+  - type: select
+    id: category
+    attributes:
+      label: 所属分类
+      description: 应该放到 README 的哪个分类下？
+      options:
+        - AI 助手与专有模型
+        - 开源大语言模型
+        - 大语言模型排行榜
+        - AI Agent
+        - Agent Skills
+        - AI 新闻与资讯
+        - AI 编程
+        - 通用大模型应用
+        - 办公协作 CLI/MCP
+        - AI 金融与量化投资
+        - AI 图像创作与 UI 设计
+        - 视频创作
+        - AI 基础设施平台
+        - GPU 编程
+        - 大模型提示词
+        - 大模型训练平台
+        - 大模型推理与部署
+        - 写作
+        - 翻译
+        - 语音识别
+        - 语音合成
+        - 音乐识别
+        - 语音处理
+        - AI 生成音乐或音效
+        - 语音翻译
+        - 视频内容摘要
+        - 学术研究
+        - OCR
+        - AI 检测
+        - 人形机器人
+        - 具身智能与仿真
+        - 不确定 / 请维护者决定
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 官网地址
+      description: 产品主页，必须可以访问
+      placeholder: "https://example.com"
+    validations:
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: GitHub 仓库（如开源）
+      placeholder: "https://github.com/org/repo"
+    validations:
+      required: false
+  - type: select
+    id: fees
+    attributes:
+      label: 费用
+      options:
+        - 免费
+        - 付费
+        - 免费/付费
+        - 免费试用
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 简短说明
+      description: 一两句话的客观描述——它是什么、谁做的、当前旗舰版本、最擅长什么。不要写广告文案。
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 自检
+      options:
+        - label: 我已搜索 README，该工具尚未收录
+          required: true
+        - label: 上面的链接可以正常访问
+          required: true
+        - label: 这是真实可用的工具，不是广告或 SEO 聚合站
+          required: true

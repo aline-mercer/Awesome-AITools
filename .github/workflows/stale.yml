@@ -36,8 +36,10 @@ jobs:
           days-before-pr-stale: 14
           days-before-pr-close: 0
 
-          # Exempt items with the 'exempt-stale' label
-          exempt-issue-labels: 'exempt-stale'
+          # Exempt items with the 'exempt-stale' label.
+          # 'recommend' is exempt too: a tool suggestion can legitimately sit
+          # in the backlog for longer than 14 days while it is being verified.
+          exempt-issue-labels: 'exempt-stale,recommend'
           exempt-pr-labels: 'exempt-stale'
 
           # Other configurations

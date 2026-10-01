@@ -9,13 +9,58 @@
 
 English | [中文](README-CN.md)
 
-This repo collects awesome AI tools. Welcome everyone to recommend more awesome AI tools together! Please use the following template as a reference for your recommendations. [issue](https://github.com/ikaijua/Awesome-AITools/issues/233)
+This repo collects awesome AI tools. Welcome everyone to recommend more awesome AI tools together! Please use the following template as a reference for your recommendations. [issue](https://github.com/ikaijua/Awesome-AITools/issues/new/choose)
+
+Free to reuse, translate, and mirror — the content is licensed under [CC BY 4.0](LICENSE) with attribution. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 
 <a href="https://www.buymeacoffee.com/ikaijuaawesomeaitools" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
+- [Editor's Picks](#editors-picks)
 - [AI News](https://github.com/ikaijua/Awesome-AITools/discussions?discussions_q=is%3Aopen+label%3A%22ai%E2%80%91news%E2%80%91en%22)
+- [Contributing](CONTRIBUTING.md)
 - [Become Sponsors](#become-sponsors)
+
+## ✨ Editor's Picks
+
+Not sure where to start? These six are the ones worth trying first — each links to a full write-up in [`docs/`](docs/).
+
+<table>
+  <tr>
+    <td width="33.3%" align="center">
+      <a href="docs/chatgpt/README.md"><b>ChatGPT</b></a>
+      <br>
+      <sub>The best all-round assistant — memory that actually persists</sub>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="docs/claude/README.md"><b>Claude</b></a>
+      <br>
+      <sub>Strongest at coding, long-context reasoning, and agentic work</sub>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="docs/gemini/README.md"><b>Gemini</b></a>
+      <br>
+      <sub>Native multimodal, built for deep research</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="docs/claude-code/README.md"><b>Claude Code</b></a>
+      <br>
+      <sub>Agentic coding in your terminal, IDE, or browser</sub>
+    </td>
+    <td align="center">
+      <a href="docs/cursor/README.md"><b>Cursor</b></a>
+      <br>
+      <sub>The AI-native code editor</sub>
+    </td>
+    <td align="center">
+      <a href="docs/deepseek/README.md"><b>DeepSeek</b></a>
+      <br>
+      <sub>Open weights, best reasoning per dollar</sub>
+    </td>
+  </tr>
+</table>
 
 ## 💎 Sponsor
 
@@ -449,6 +494,18 @@ A huge thank you to our sponsors! Want to appear here? [Contact us](#become-spon
 | Name | Description | Links | Fees |
 | --- | --- | --- | --- |
 | Genesis | High-performance simulation platform for general-purpose robotics and embodied AI. Integrates a unified multi-physics engine, photo-realistic renderer, and cross-platform compiler for training AI agents in complex physical worlds. [Intro](docs/genesis/README.md) | [Github](https://github.com/Genesis-Embodied-AI/genesis-world) ![GitHub Repo stars](https://img.shields.io/github/stars/Genesis-Embodied-AI/genesis-world?style=social) | Free |
+
+---
+
+<div align="center">
+
+⭐ **[Star the repo](https://github.com/ikaijua/Awesome-AITools/stargazers)** to get notified when new tools are added.
+
+New tools land every week — see [CHANGELOG.md](CHANGELOG.md) for the full log, or follow [AI News](https://github.com/ikaijua/Awesome-AITools/discussions?discussions_q=is%3Aopen+label%3A%22ai%E2%80%91news%E2%80%91en%22) in Discussions.
+
+<sub>Content licensed under [CC BY 4.0](LICENSE) — free to reuse, translate, and mirror, as long as this repo is credited.</sub>
+
+</div>
 
 ### Become Sponsors
 
